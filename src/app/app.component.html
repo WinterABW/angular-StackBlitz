@@ -1,1 +1,6 @@
 <h1>Hi</h1>
+<app-person name="Winter" lastName="Seth" [age]="22" (print)="getPrint($event)"></app-person>
+
+<span>{{person?.name}}</span>
+<span>{{person?.lastName}}</span>
+<span>{{person?.age}}</span>
